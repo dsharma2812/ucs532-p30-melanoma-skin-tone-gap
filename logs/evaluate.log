@@ -1,0 +1,79 @@
+             run        arm  seed  threshold  test_auroc   group  n_images  n_melanoma  sensitivity   fpr  sens_ci_low  sens_ci_high
+         A_seed0          A     0      0.824       0.808     all      1164         217        0.521 0.087        0.389         0.650
+         A_seed0          A     0      0.824       0.808 lighter       962         173        0.503 0.079        0.364         0.638
+         A_seed0          A     0      0.824       0.808  medium       150          27        0.407 0.065        0.174         0.667
+         A_seed0          A     0      0.824       0.808  darker        52          17        0.882 0.343        0.667         1.000
+         A_seed1          A     1      0.701       0.815     all      1164         217        0.516 0.084        0.381         0.643
+         A_seed1          A     1      0.701       0.815 lighter       962         173        0.509 0.074        0.377         0.636
+         A_seed1          A     1      0.701       0.815  medium       150          27        0.407 0.098        0.179         0.689
+         A_seed1          A     1      0.701       0.815  darker        52          17        0.765 0.286        0.333         0.952
+         A_seed2          A     2      1.052       0.795     all      1164         217        0.470 0.102        0.343         0.591
+         A_seed2          A     2      1.052       0.795 lighter       962         173        0.474 0.090        0.352         0.592
+         A_seed2          A     2      1.052       0.795  medium       150          27        0.296 0.130        0.061         0.553
+         A_seed2          A     2      1.052       0.795  darker        52          17        0.706 0.286        0.333         0.917
+A_shuffled_seed0 A_shuffled     0      0.471       0.435     all      1164         217        0.083 0.095        0.031         0.142
+A_shuffled_seed0 A_shuffled     0      0.471       0.435 lighter       962         173        0.075 0.104        0.031         0.128
+A_shuffled_seed0 A_shuffled     0      0.471       0.435  medium       150          27        0.037 0.065        0.000         0.133
+A_shuffled_seed0 A_shuffled     0      0.471       0.435  darker        52          17        0.235 0.000        0.000         0.462
+A_shuffled_seed1 A_shuffled     1      0.622       0.459     all      1164         217        0.088 0.100        0.041         0.155
+A_shuffled_seed1 A_shuffled     1      0.622       0.459 lighter       962         173        0.087 0.105        0.032         0.156
+A_shuffled_seed1 A_shuffled     1      0.622       0.459  medium       150          27        0.148 0.057        0.032         0.333
+A_shuffled_seed1 A_shuffled     1      0.622       0.459  darker        52          17        0.000 0.143        0.000         0.000
+A_shuffled_seed2 A_shuffled     2      0.327       0.527     all      1164         217        0.083 0.067        0.048         0.118
+A_shuffled_seed2 A_shuffled     2      0.327       0.527 lighter       962         173        0.069 0.060        0.034         0.114
+A_shuffled_seed2 A_shuffled     2      0.327       0.527  medium       150          27        0.148 0.089        0.032         0.350
+A_shuffled_seed2 A_shuffled     2      0.327       0.527  darker        52          17        0.118 0.143        0.000         0.200
+         B_seed0          B     0      0.927       0.773     all      1164         217        0.461 0.097        0.323         0.593
+         B_seed0          B     0      0.927       0.773 lighter       962         173        0.445 0.095        0.308         0.577
+         B_seed0          B     0      0.927       0.773  medium       150          27        0.333 0.065        0.077         0.615
+         B_seed0          B     0      0.927       0.773  darker        52          17        0.824 0.257        0.500         1.000
+         B_seed1          B     1      1.047       0.780     all      1164         217        0.512 0.093        0.377         0.645
+         B_seed1          B     1      1.047       0.780 lighter       962         173        0.509 0.089        0.368         0.636
+         B_seed1          B     1      1.047       0.780  medium       150          27        0.370 0.073        0.111         0.667
+         B_seed1          B     1      1.047       0.780  darker        52          17        0.765 0.257        0.333         0.952
+         B_seed2          B     2      1.001       0.777     all      1164         217        0.470 0.116        0.339         0.592
+         B_seed2          B     2      1.001       0.777 lighter       962         173        0.462 0.105        0.325         0.593
+         B_seed2          B     2      1.001       0.777  medium       150          27        0.333 0.114        0.100         0.586
+         B_seed2          B     2      1.001       0.777  darker        52          17        0.765 0.371        0.333         0.952
+   control_seed0    control     0      1.246       0.803     all      1164         217        0.461 0.084        0.313         0.603
+   control_seed0    control     0      1.246       0.803 lighter       962         173        0.462 0.085        0.319         0.608
+   control_seed0    control     0      1.246       0.803  medium       150          27        0.259 0.057        0.059         0.500
+   control_seed0    control     0      1.246       0.803  darker        52          17        0.765 0.171        0.333         0.952
+   control_seed1    control     1      0.624       0.766     all      1164         217        0.475 0.103        0.344         0.611
+   control_seed1    control     1      0.624       0.766 lighter       962         173        0.474 0.090        0.337         0.612
+   control_seed1    control     1      0.624       0.766  medium       150          27        0.296 0.122        0.100         0.500
+   control_seed1    control     1      0.624       0.766  darker        52          17        0.765 0.343        0.333         0.952
+   control_seed2    control     2      1.172       0.799     all      1164         217        0.438 0.087        0.303         0.565
+   control_seed2    control     2      1.172       0.799 lighter       962         173        0.434 0.076        0.295         0.572
+   control_seed2    control     2      1.172       0.799  medium       150          27        0.333 0.081        0.125         0.500
+   control_seed2    control     2      1.172       0.799  darker        52          17        0.647 0.343        0.200         0.880
+     floor_seed0      floor     0      0.519       0.794     all      1164         217        0.456 0.093        0.317         0.573
+     floor_seed0      floor     0      0.519       0.794 lighter       962         173        0.451 0.090        0.311         0.569
+     floor_seed0      floor     0      0.519       0.794  medium       150          27        0.370 0.073        0.125         0.553
+     floor_seed0      floor     0      0.519       0.794  darker        52          17        0.647 0.229        0.214         0.917
+     floor_seed1      floor     1      0.586       0.792     all      1164         217        0.406 0.087        0.270         0.523
+     floor_seed1      floor     1      0.586       0.792 lighter       962         173        0.405 0.081        0.273         0.525
+     floor_seed1      floor     1      0.586       0.792  medium       150          27        0.296 0.073        0.071         0.457
+     floor_seed1      floor     1      0.586       0.792  darker        52          17        0.588 0.257        0.111         0.833
+     floor_seed2      floor     2      0.518       0.792     all      1164         217        0.433 0.106        0.294         0.558
+     floor_seed2      floor     2      0.518       0.792 lighter       962         173        0.451 0.100        0.322         0.578
+     floor_seed2      floor     2      0.518       0.792  medium       150          27        0.222 0.089        0.048         0.355
+     floor_seed2      floor     2      0.518       0.792  darker        52          17        0.588 0.286        0.111         0.867
+
+group              all  darker  lighter  medium  gap_lighter_minus_darker
+arm        seed                                                          
+A          0     0.521   0.882    0.503   0.407                    -0.379
+           1     0.516   0.765    0.509   0.407                    -0.256
+           2     0.470   0.706    0.474   0.296                    -0.232
+A_shuffled 0     0.083   0.235    0.075   0.037                    -0.160
+           1     0.088   0.000    0.087   0.148                     0.087
+           2     0.083   0.118    0.069   0.148                    -0.048
+B          0     0.461   0.824    0.445   0.333                    -0.378
+           1     0.512   0.765    0.509   0.370                    -0.256
+           2     0.470   0.765    0.462   0.333                    -0.302
+control    0     0.461   0.765    0.462   0.259                    -0.302
+           1     0.475   0.765    0.474   0.296                    -0.291
+           2     0.438   0.647    0.434   0.333                    -0.214
+floor      0     0.456   0.647    0.451   0.370                    -0.196
+           1     0.406   0.588    0.405   0.296                    -0.184
+           2     0.433   0.588    0.451   0.222                    -0.137

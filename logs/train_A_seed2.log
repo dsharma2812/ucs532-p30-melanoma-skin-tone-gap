@@ -1,0 +1,8 @@
+[seed] SEED=2
+[env] device=cuda torch=2.14.1+cu130 args={'arm': 'A', 'seed': 2, 'epochs': 5, 'lr': 0.0001, 'bs': 64, 'cache': '../cache', 'size': 224, 'out': '../results/runs', 'shuffle_labels': False, 'pretrained': 1, 'limit': 0}
+[epoch 1/5] train_loss=0.9072 val_auroc=0.8257 time=57s
+[epoch 2/5] train_loss=0.6518 val_auroc=0.8412 time=54s
+[epoch 3/5] train_loss=0.5054 val_auroc=0.8640 time=54s
+[epoch 4/5] train_loss=0.3799 val_auroc=0.8531 time=54s
+[epoch 5/5] train_loss=0.3272 val_auroc=0.8600 time=54s
+[done] A_seed2 best_val_auroc=0.8640 -> ../results/runs/A_seed2_scores.csv

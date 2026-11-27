@@ -1,0 +1,7 @@
+data/
+cache/
+*.npy
+*.pt
+*.pth
+*.zip
+__pycache__/

@@ -1,0 +1,19 @@
+    run arm  seed  threshold  test_auroc   group  n_images  n_melanoma  sensitivity   fpr  sens_ci_low  sens_ci_high
+C_seed0   C     0      0.638       0.819     all      1164         217        0.530 0.095        0.400         0.658
+C_seed0   C     0      0.638       0.819 lighter       962         173        0.514 0.090        0.369         0.651
+C_seed0   C     0      0.638       0.819  medium       150          27        0.407 0.073        0.167         0.645
+C_seed0   C     0      0.638       0.819  darker        52          17        0.882 0.286        0.667         1.000
+C_seed1   C     1      0.794       0.810     all      1164         217        0.525 0.092        0.397         0.653
+C_seed1   C     1      0.794       0.810 lighter       962         173        0.503 0.082        0.369         0.640
+C_seed1   C     1      0.794       0.810  medium       150          27        0.481 0.130        0.211         0.708
+C_seed1   C     1      0.794       0.810  darker        52          17        0.824 0.171        0.500         1.000
+C_seed2   C     2      1.321       0.806     all      1164         217        0.470 0.087        0.337         0.593
+C_seed2   C     2      1.321       0.806 lighter       962         173        0.474 0.079        0.336         0.608
+C_seed2   C     2      1.321       0.806  medium       150          27        0.296 0.098        0.061         0.553
+C_seed2   C     2      1.321       0.806  darker        52          17        0.706 0.229        0.333         0.917
+
+group       all  darker  lighter  medium  gap_lighter_minus_darker
+arm seed                                                          
+C   0     0.530   0.882    0.514   0.407                    -0.368
+    1     0.525   0.824    0.503   0.481                    -0.321
+    2     0.470   0.706    0.474   0.296                    -0.232

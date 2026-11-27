@@ -1,0 +1,7 @@
+[seed] SEED=0
+       images  melanomas  lesions
+split                            
+test     1164        217      664
+train    5635        977     3088
+val      1201        212      660
+[ok] no lesion group crosses splits; subset images = 8000
