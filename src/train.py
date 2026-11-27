@@ -67,8 +67,8 @@ lossf = nn.BCEWithLogitsLoss(reduction="none")
 def predict(ids):
     m.eval(); out = []
     with torch.no_grad():
-        for i in range(0, len(ids), 128):
-            out.append(m(batch(ids[i:i + 128], False)).squeeze(1).cpu().numpy())
+        for i in range(0, len(ids), 32):
+            out.append(m(batch(ids[i:i + 32], False)).squeeze(1).cpu().numpy())
     return np.concatenate(out)
 
 best, tag = -1, f"{a.arm}{'_shuffled' if a.shuffle_labels else ''}_seed{a.seed}"
